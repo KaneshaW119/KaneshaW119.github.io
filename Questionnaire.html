@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Questionnaire</title>
+	
+	
+</head>
+
+	
+	
+	<body>
+		
+		<script type="text/javascript">
+		
+		
+		var name = prompt( "Please enter your first and last name: ", " ");
+		var address = prompt( "Please enter your address: ", " ");
+		var occupation = prompt( "Please enter your occupation: ", " ");
+	
+		var info = [name, address, occupation];
+		var text = " ";
+		
+		for (var i = 0; i <info.length; i++) {
+			text += info[i] + "<br>";
+		}
+			document.write("Thanks you for your information! You supplied this information:" + "<br>");
+			
+			document.writeln(text);
+
+	</script>
+		
+</body>
+</html>
