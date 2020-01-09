@@ -1,7 +1,0 @@
-let admin;
-
-let name = "Earth";
-
-admin = name;
-
-alert (admin);
